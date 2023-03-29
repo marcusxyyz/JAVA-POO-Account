@@ -24,7 +24,6 @@ public class Program {
 		if (condition == 'y') {
 			System.out.print("Enter initial deposit value: ");
 			double initialDeposit = sc.nextDouble();
-			acc.depositValue(initialDeposit);
 			acc = new Account(number, holder, initialDeposit);
 		}
 		else {
